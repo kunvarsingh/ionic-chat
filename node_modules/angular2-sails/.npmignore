@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.buildpath
+.project
+.settings/
+.build/
+.idea/
+nbproject/
+
+# LOGs
+npm-debug.log
+
+# RESOURCES
+node_modules/
+typings/
+src
+
+/compiled
+*.ngFactory.ts
+# ignore all typescript
+*.ts
+# allow only ambient type definitions
+!*.d.ts
